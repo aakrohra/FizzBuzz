@@ -37,7 +37,7 @@ class FizzBuzz {
 //        }
     }
 
-    private static int doFizzBuzzWhile(int i) {
+    public static int doFizzBuzzWhile(int i) {
         boolean divisibleBy3while = i % 3 == 0;
         boolean divisibleBy5while = i % 5 == 0;
 
